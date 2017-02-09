@@ -277,8 +277,7 @@ class SwipeRow extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-		// As of RN 0.29 flex: 1 is causing all rows to be the same height
-		// flex: 1
+		flex: 1,
 	},
 	hidden: {
 		bottom: 0,
